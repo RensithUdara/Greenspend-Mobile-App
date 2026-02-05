@@ -305,14 +305,44 @@ AsyncStorage (Local Device)
 Persistent State
 ```
 
-##  Key Screens
+---
 
-- **Onboarding**: First-time user experience
-- **Dashboard**: Quick financial overview
-- **Transactions**: Income/expense management
-- **Budgets**: Set and track spending limits
-- **Analytics**: Visual spending analysis
-- **Profile**: Settings and preferences
+## 📱 App Screens
+
+| Screen | Emoji | Description |
+|--------|-------|-------------|
+| **Onboarding** | 👋 | Welcome intro & initial setup wizard |
+| **Dashboard** | 💰 | Financial overview & quick stats |
+| **Transactions** | 📋 | Add, view, manage all transactions |
+| **Budgets** | 🎯 | Set limits & track spending by category |
+| **Analytics** | 📊 | Charts, trends & spending analysis |
+| **Profile** | 👤 | Settings, preferences & data management |
+
+### 💡 Screen Highlights
+
+🎯 **Dashboard**
+- Recent transaction list
+- Monthly income vs expenses
+- Budget status by category
+- Performance badges
+
+📋 **Transactions**
+- Comprehensive transaction history
+- Filter by date, category, type
+- Quick add floating button
+- Transaction details modal
+
+📊 **Analytics**
+- Monthly trend charts
+- Category breakdown pie charts
+- Spending patterns
+- Export reports
+
+🎯 **Budgets**
+- Category budget limits
+- Visual gauge progress
+- Alerts when approaching limit
+- Budget recommendations
 
 ##  Development
 
