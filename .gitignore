@@ -31,18 +31,16 @@ yarn-error.*
 
 # local env files
 .env*.local
-.env.production
-.env
 
 # typescript
 *.tsbuildinfo
 
 app-example
 
-.vscode
 .expo/
 
 # Fastshot-specific excludes
 .fastshot-logs/
 examples/
 CLAUDE.md
+config.bat

@@ -1,8 +1,8 @@
-#  Greenspend
+# 💚 Greenspend
 
 <div align="center">
 
-###  Take Control of Your Finances
+### 🌱 Take Control of Your Finances
 
 A modern, intuitive personal finance management app built with **React Native** and **Expo**. 
 Track your income, manage budgets, analyze spending patterns, and achieve your financial goals with style.
@@ -16,66 +16,134 @@ Track your income, manage budgets, analyze spending patterns, and achieve your f
 
 ---
 
-##  Features at a Glance
-
-| Feature | Description | Icon |
-|---------|-------------|------|
-|  **Transactions** | Record income & expenses with categories & notes |  |
-|  **Budget Tracking** | Set monthly limits & monitor spending |  |
-|  **Analytics** | Beautiful charts & spending insight |  |
-|  **Recurring** | Automate income & expense tracking |  |
-|  **Multi-Currency** | Support for global currencies |  |
-|  **Privacy** | All data stored locally on device |  |
-|  **Cross-Platform** | iOS, Android & Web support |  |
-|  **Beautiful UI** | Smooth animations & responsive design |  |
-
----
-
-##  Tech Stack
+## ⭐ Features
 
 <table>
 <tr>
-<th> Category</th>
-<th> Technology</th>
-<th> Purpose</th>
+<td>
+
+💳 **Transaction Management**
+- Record income & expenses with categories, notes, and dates
+- Organize transactions by custom categories
+- Full transaction history with timestamps
+
+</td>
+<td>
+
+📊 **Budget Tracking**
+- Set monthly spending limits by category
+- Real-time budget monitoring
+- Visual spending alerts when approaching limits
+
+</td>
 </tr>
 <tr>
-<td> Core</td>
+<td>
+
+📈 **Visual Analytics**
+- Interactive charts and graphs
+- Category breakdown visualizations
+- Monthly spending trends
+- Income vs expense analysis
+
+</td>
+<td>
+
+🔄 **Recurring Transactions**
+- Automate income tracking (salary, passive income)
+- Set recurring expenses (bills, subscriptions)
+- Flexible frequency options (weekly, monthly, yearly)
+
+</td>
+</tr>
+<tr>
+<td>
+
+💱 **Multi-Currency Support**
+- Configure your preferred currency
+- Automatic currency formatting
+- Global exchange rate support
+
+</td>
+<td>
+
+🔒 **Local Data Storage**
+- All data stored securely on your device
+- No cloud dependency - complete privacy
+- AsyncStorage persistence
+- Full offline functionality
+
+</td>
+</tr>
+<tr>
+<td>
+
+📱 **Cross-Platform**
+- iOS native experience
+- Android native experience
+- Web browser support
+- Seamless sync across devices
+
+</td>
+<td>
+
+ 🎨 **Beautiful UI/UX**
+- Responsive design for all screen sizes
+- Smooth animations and transitions
+- Dark & light mode support
+- Intuitive navigation
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Tech Stack
+
+<table>
+<tr>
+<th>Category</th>
+<th>Technology</th>
+<th>Purpose</th>
+</tr>
+<tr>
+<td>⚡ Core</td>
 <td><strong>React 19</strong> + <strong>React Native 0.81</strong></td>
 <td>UI framework & mobile development</td>
 </tr>
 <tr>
-<td> Framework</td>
+<td>🧭 Framework</td>
 <td><strong>Expo 54</strong></td>
 <td>Development platform & rapid deployment</td>
 </tr>
 <tr>
-<td> Routing</td>
+<td>🗂️ Routing</td>
 <td><strong>Expo Router 6</strong></td>
 <td>File-based navigation system</td>
 </tr>
 <tr>
-<td> Storage</td>
+<td>💾 Storage</td>
 <td><strong>AsyncStorage</strong></td>
 <td>Persistent local data management</td>
 </tr>
 <tr>
-<td> Charts</td>
+<td>📊 Charts</td>
 <td><strong>Victory Native</strong></td>
 <td>Beautiful data visualization</td>
 </tr>
 <tr>
-<td> Language</td>
+<td>✍️ Language</td>
 <td><strong>TypeScript</strong></td>
 <td>Type-safe development</td>
 </tr>
 <tr>
-<td> Icons</td>
+<td>🎨 Icons</td>
 <td><strong>Expo Vector Icons</strong></td>
 <td>1000+ customizable icons</td>
 </tr>
 <tr>
-<td> Navigation</td>
+<td>📦 Navigation</td>
 <td><strong>React Navigation 7</strong></td>
 <td>Bottom tab navigation system</td>
 </tr>
@@ -83,35 +151,35 @@ Track your income, manage budgets, analyze spending patterns, and achieve your f
 
 ---
 
-##  Prerequisites
+## 📋 Prerequisites
 
 Before you begin, ensure you have the following installed:
 
-|  Requirement |  Version |  Purpose |
+| Requirement | Version | Purpose |
 |------------|---------|---------|
-|  Node.js | v18+ | JavaScript runtime |
-|  npm or yarn | Latest | Package manager |
-|  Expo CLI | Latest | Development platform |
-|  Xcode | Latest | iOS development (macOS only) |
-|  Android Studio | Latest | Android development |
+| 🟩 Node.js | v18+ | JavaScript runtime |
+| 📦 npm or yarn | Latest | Package manager |
+| 🚀 Expo CLI | Latest | Development platform |
+| 🍎 Xcode | Latest | iOS development (macOS only) |
+| 🤖 Android Studio | Latest | Android development |
 
-> ** Tip:** Install Expo CLI globally:
+> **💡 Tip:** You can install Expo CLI globally with:
 > ```bash
 > npm install -g expo-cli
 > ```
 
 ---
 
-##  Quick Start (5 Minutes)
+## 🚀 Quick Start
 
-### Step 1: Clone Repository 
+### Step 1: Clone & Navigate 📂
 
 ```bash
 git clone https://github.com/yourusername/greenspend.git
 cd greenspend
 ```
 
-### Step 2: Install Dependencies 
+### Step 2: Install Dependencies 📥
 
 ```bash
 npm install
@@ -119,396 +187,237 @@ npm install
 yarn install
 ```
 
-### Step 3: Start Development Server 
+### Step 3: Start Development Server 🏃
 
 ```bash
 npx expo start
 ```
 
-### Step 4: Run on Device 
+### Step 4: Run on Your Device 📱
 
-| Platform | Command | Info |
-|----------|---------|------|
-| ** iOS Simulator** | Press `i` | macOS only |
-| ** Android Emulator** | Press `a` | Any OS |
-| ** Web Browser** | Press `w` | Desktop |
-| ** Physical Device** | Scan QR code | Use Expo Go app |
+| Option | Command | Device |
+|--------|---------|--------|
+| **iOS Simulator** | Press `i` | macOS only |
+| **Android Emulator** | Press `a` | Any OS |
+| **Web Browser** | Press `w` | Desktop |
+| **Physical Device** | Scan QR code with Expo Go app | iOS/Android |
 
----
-
-##  Project Structure
-
-```
-greenspend/ 
-
-  app/                           # Expo Router (file-based routing)
-    _layout.tsx                  # Root layout & navigation
-    index.tsx                    # Entry point
-    onboarding.tsx               #  Onboarding screens  
-    add-transaction.tsx          #  Add transaction
-    (tabs)/                      # Tab navigation
-        _layout.tsx              # Tab layout
-        index.tsx                #  Dashboard
-        transactions.tsx         #  Transactions
-        budgets.tsx              #  Budgets
-        analytics.tsx            #  Analytics
-        profile.tsx              #  Profile
-
-  assets/                       # Images, fonts, icons
-
-  components/                   # Reusable components
-    BarChart.tsx                #  Bar charts
-    BudgetGauge.tsx             #  Budget gauges
-    Button.tsx                  # Buttons
-    Card.tsx                    # Cards
-    EmptyState.tsx              # Empty states
-    PieChart.tsx                #  Pie charts
-    TransactionItem.tsx         # Transaction items
-
-  constants/
-    theme.ts                    #  Colors & typography
-
-  hooks/
-    useCurrency.ts              # Currency formatting
-
-  services/
-    storage.ts                  # Storage operations
-
-  types/
-    index.ts                    # TypeScript interfaces
-
-  Configuration Files
-     app.json                    # Expo config
-     package.json                # Dependencies
-     tsconfig.json               # TypeScript
-     babel.config.js             # Babel
-     metro.config.js             # Metro
-
-```
+> **⚡ Fast Tip:** Use Expo Go app for instant development testing on your real device!
 
 ---
 
-##  Architecture Overview
+## 📁 Project Structure
 
-###  Data Models
+```
+greenspend/
+│
+├── 📱 app/                           # Expo Router (file-based routing)
+│   ├── _layout.tsx                  # Root layout & navigation setup
+│   ├── index.tsx                    # Entry point (onboarding check)
+│   ├── onboarding.tsx               # 👋 Onboarding screens
+│   ├── add-transaction.tsx          # ➕ Add transaction form
+│   └── (tabs)/                      # Tab navigation container
+│       ├── _layout.tsx              # Tab layout & structure
+│       ├── index.tsx                # 💰 Dashboard/Home
+│       ├── transactions.tsx         # 📋 All transactions
+│       ├── budgets.tsx              # 🎯 Budget management
+│       ├── analytics.tsx            # 📊 Analytics & charts
+│       └── profile.tsx              # 👤 Settings & profile
+│
+├── 🎨 assets/
+│   ├── images/                      # App icons, logos, splash
+│   └── fonts/                       # Custom fonts
+│
+├── 🧩 components/                   # Reusable UI components
+│   ├── BarChart.tsx                # 📊 Bar chart component
+│   ├── BudgetGauge.tsx             # 🎯 Budget visualization
+│   ├── Button.tsx                  # Button component
+│   ├── Card.tsx                    # Card wrapper
+│   ├── EmptyState.tsx              # Empty state UI
+│   ├── PieChart.tsx                # 🥧 Pie chart component
+│   └── TransactionItem.tsx         # Transaction list item
+│
+├── ⚙️ constants/
+│   └── theme.ts                    # 🎨 Colors, typography, styles
+│
+├── 🪝 hooks/
+│   └── useCurrency.ts              # Currency formatting hook
+│
+├── 🔧 services/
+│   └── storage.ts                  # Local storage operations
+│
+├── 📘 types/
+│   └── index.ts                    # TypeScript interfaces
+│
+├── ⚡ Configuration Files
+│   ├── app.json                    # Expo configuration
+│   ├── package.json                # Dependencies
+│   ├── tsconfig.json               # TypeScript config
+│   ├── babel.config.js             # Babel configuration
+│   └── metro.config.js             # Metro bundler config
+│
+```
 
-|  Model |  Purpose |  Key Fields |
+---
+
+## 🏗️ Architecture Overview
+
+### 📊 Data Models
+
+| Model | Purpose | Key Fields |
 |-------|---------|-----------|
-| **Transaction** | Income/expense | `id`, `amount`, `type`, `category`, `date` |
-| **Budget** | Spending limits | `id`, `category`, `limit`, `month` |
-| **Settings** | Preferences | `currency`, `onboarding` |
+| **Transaction** | Income/expense entries | `id`, `amount`, `type`, `category`, `date`, `isRecurring` |
+| **Budget** | Monthly spending limits | `id`, `category`, `limit`, `month` |
+| **AppSettings** | User preferences | `currencySymbol`, `hasCompletedOnboarding` |
 
-###  Core Services
+### 🔌 Core Services
 
-####  Storage Service (`services/storage.ts`)
-```
- CRUD operations for transactions
- Budget management per category
- Custom category storage
- Analytics calculations
- Settings persistence
-```
-
-####  Currency Hook (`hooks/useCurrency.ts`)
-```
- Currency symbol formatting
- Multi-currency support
- Locale-aware formatting
- Consistent app-wide usage
+#### 💾 Storage Service (`services/storage.ts`)
+```typescript
+✓ Manage transactions (CRUD operations)
+✓ Manage budgets by category
+✓ Store custom categories
+✓ Calculate analytics & statistics
+✓ Persist settings & preferences
 ```
 
-###  Data Flow Architecture
-
+#### 💱 Currency Hook (`hooks/useCurrency.ts`)
+```typescript
+✓ Format amounts with currency symbols
+✓ Support multi-currency
+✓ Locale-aware formatting
+✓ Global consistency
 ```
 
-  User Input 
+### 🔄 Data Flow
 
-       
-
-  React Component
-
-       
-
-  Custom Hooks    (useCurrency, etc)
-
-       
-
- Storage Service 
-
-       
-
-   AsyncStorage       
-  (Local Persistence) 
-
+```
+User Input
+    ↓
+Components
+    ↓
+Hooks (useCurrency, custom hooks)
+    ↓
+Services (Storage)
+    ↓
+AsyncStorage (Local Device)
+    ↓
+Persistent State
 ```
 
 ---
 
-##  App Screens
+## 📱 App Screens
 
-|  Screen | Emoji |  Description |
+| Screen | Emoji | Description |
 |--------|-------|-------------|
-| **Onboarding** |  | Welcome intro & setup wizard |
-| **Dashboard** |  | Financial overview & quick stats |
-| **Transactions** |  | Manage all transactions |
-| **Budgets** |  | Set & track spending |
-| **Analytics** |  | Charts & trends |
-| **Profile** |  | Settings & preferences |
+| **Onboarding** | 👋 | Welcome intro & initial setup wizard |
+| **Dashboard** | 💰 | Financial overview & quick stats |
+| **Transactions** | 📋 | Add, view, manage all transactions |
+| **Budgets** | 🎯 | Set limits & track spending by category |
+| **Analytics** | 📊 | Charts, trends & spending analysis |
+| **Profile** | 👤 | Settings, preferences & data management |
 
-###  Screen Highlights
+### 💡 Screen Highlights
 
-** Dashboard**
-- Recent transactions list
+🎯 **Dashboard**
+- Recent transaction list
 - Monthly income vs expenses
-- Budget status overview
-- Quick action buttons
+- Budget status by category
+- Performance badges
 
-** Transactions**
-- Full transaction history
-- Filter by date & category
-- Quick add button
+📋 **Transactions**
+- Comprehensive transaction history
+- Filter by date, category, type
+- Quick add floating button
 - Transaction details modal
 
-** Analytics**
+📊 **Analytics**
 - Monthly trend charts
-- Category breakdown
+- Category breakdown pie charts
 - Spending patterns
-- Import/export data
+- Export reports
 
-** Budgets**
-- Category limits
-- Visual progress gauge
-- Spending alerts
+🎯 **Budgets**
+- Category budget limits
+- Visual gauge progress
+- Alerts when approaching limit
 - Budget recommendations
 
----
+##  Development
 
-##  Development Guide
-
-###  Start Server
-```bash
+### Run Development Server
+\\\ash
 npx expo start
-```
+\\\
 
-###  Lint Code
-```bash
+### Lint Code
+\\\ash
 npm run lint
-```
+\\\
 
-**Auto-fix issues:**
-```bash
-npm run lint -- --fix
-```
+### Build Commands
 
-###  Build Commands
+Development Build (Local):
+\\\ash
+eas build --platform ios --local
+eas build --platform android --local
+\\\
 
-|  Purpose |  Command |  Output |
-|---------|---------|--------|
-| **iOS (Local)** | `eas build --platform ios --local` | .ipa |
-| **Android (Local)** | `eas build --platform android --local` | .apk |
-| **iOS (Release)** | `eas build --platform ios` | App Store ready |
-| **Android (Release)** | `eas build --platform android` | Play Store ready |
-
-###  Development Tips
-
- Hot reload enabled for instant testing
- React Native Debugger for deep debugging
- Test on physical devices with Expo Go
- Use TypeScript for type safety
- Test on various screen sizes
-
-###  Debugging
-
-```bash
-# Verbose logging
-DEBUG=expo:* npx expo start
-
-# React DevTools  
-npm install -g react-devtools
-react-devtools
-```
-
----
+Production Build:
+\\\ash
+eas build --platform ios
+eas build --platform android
+\\\
 
 ##  Key Dependencies
 
-###  Core Packages
+- react & react-native - UI framework
+- expo - Development platform
+- expo-router - Navigation
+- @react-native-async-storage/async-storage - LocalStorage
+- victory-native - Charts and graphs
+- @expo/vector-icons - Icon library
+- react-native-gesture-handler - Gesture support
+- react-native-reanimated - Animations
 
-```json
-{
-  "react": "19.1.0",
-  "react-native": "0.81.5",
-  "expo": "54.0.21",
-  "expo-router": "6.0.14",
-  "typescript": "latest"
-}
-```
+##  Deployment
 
-###  UI & Visualization
+### iOS
+1. Ensure Xcode is installed
+2. Configure signing in Apple Developer account
+3. Run \eas build --platform ios\
+4. Submit to App Store
 
-- `victory-native` - Charts & graphs
-- `@expo/vector-icons` - Icon library
-- `react-native-svg` - SVG support
-- `expo-linear-gradient` - Gradients
-- `expo-blur` - Blur effects
-
-###  Navigation & Interaction
-
-- `@react-navigation/native` - Navigation
-- `@react-navigation/bottom-tabs` - Tab nav
-- `react-native-gesture-handler` - Gestures
-- `react-native-reanimated` - Animations
-- `expo-haptics` - Haptic feedback
-
-###  Storage & Data
-
-- `@react-native-async-storage/async-storage` - LocalStorage
-- `uuid` - ID generation
-- `@react-native-community/datetimepicker` - Date picker
-
----
-
-##  Deployment Guide
-
-###  iOS Deployment
-
-1.  Install & configure Xcode
-2.  Set up Apple Developer account
-3.  Create provisioning profiles
-4.  Build: `eas build --platform ios`
-5.  Submit to App Store
-
-###  Android Deployment
-
-1.  Configure Google Play credentials
-2.  Generate signing key
-3.  Build: `eas build --platform android`
-4.  Upload to Google Play Console
-
-###  Web Deployment
-
-```bash
-npx expo export --platform web
-
-# Deploy to Vercel, Netlify, etc.
-vercel .expo/dist/web
-```
-
----
-
-##  Customization
-
-###  Theme Customization
-
-Edit `constants/theme.ts`:
-
-```typescript
-export const Colors = {
-  emeraldGreen: '#10b981',
-  lightGray: '#f3f4f6',
-  darkBg: '#1f2937',
-  // Add your colors
-};
-```
-
-###  Add Custom Categories
-
-Edit `constants/theme.ts` and add to `DefaultCategories`:
-
-```typescript
-export const DefaultCategories = [
-  'Salary', 'Freelance', 'Groceries', 'Transport',
-  'Entertainment', 'Healthcare', 'Your Custom Category'
-];
-```
-
----
+### Android
+1. Configure Google Play credentials
+2. Run \eas build --platform android\
+3. Upload to Google Play Console
 
 ##  Contributing
 
-We love contributions! Here''s how to help:
-
-1.  Fork the repository
-2.  Create feature branch: `git checkout -b feature/YourFeature`
-3.  Commit changes: `git commit -m ''Add YourFeature''`
-4.  Push branch: `git push origin feature/YourFeature`
-5.  Open Pull Request
-
-###  Contribution Ideas
-
--  Bug fixes
--  New features
--  Documentation
--  Tests
--  Translations
-
----
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
 
 ##  License
 
-This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
+MIT License
+
+##  Bug Reports & Support
+
+- Open an issue on the GitHub repository
+- Include device, OS, and reproduction steps
+- Join our Discord community for discussions
+
+##  Acknowledgments
+
+- Built with [Expo](https://expo.dev)
+- Charts by [Victory](https://formidable.com/open-source/victory)
+- Icons from [Expo Vector Icons](https://icons.expo.fyi/)
 
 ---
 
-##  Bug Reports & Feature Requests
-
-Found a  bug or have a  feature idea?
-
-1. Check [existing issues](https://github.com/yourusername/greenspend/issues)
-2. [Create new issue](https://github.com/yourusername/greenspend/issues/new) with:
-   -  Clear description
-   -  Device & OS info
-   -  Screenshots if applicable
-   -  Steps to reproduce (bugs)
-
----
-
-##  Support & Community
-
--  **GitHub Issues** - Bug reports & features
--  **Discussions** - Q&A & ideas
--  **Wiki** - Detailed guides
--  **Discord** - Community chat
-
----
-
-##  Acknowledgments & Credits
-
-|  Credit |  Link |
-|--------|------|
-| **Expo** | [expo.dev](https://expo.dev) - Amazing platform |
-| **React Native** | Community & maintainers |
-| **Victory** | [Victory Charts](https://formidable.com/open-source/victory) |
-| **Icons** | [Expo Vector Icons](https://icons.expo.fyi/) |
-| **Community** | All contributors & supporters |
-
----
-
-##  Project Stats
-
--  Components: 7
--  Custom Hooks: 1
--  Services: 1
--  App Screens: 6
--  TypeScript: 100%
--  Lines of Code: 2000+
-
----
-
-<div align="center">
-
-###  **Happy Budgeting!**
-
-#### Track your spending, manage your budget, and achieve your financial goals with **Greenspend** 
-
- If you find this project useful, please star it! 
-
-[GitHub](https://github.com/yourusername/greenspend)  [Issues](https://github.com/yourusername/greenspend/issues)  [Discussions](https://github.com/yourusername/greenspend/discussions)
-
-</div>
-
----
-
-**Made with  by developers, for developers**
-
-Last Updated: February 2026  v1.0.0
+**Happy budgeting! ** Track your spending and achieve your financial goals with Greenspend.
