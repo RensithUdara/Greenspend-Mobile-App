@@ -204,31 +204,59 @@ npx expo start
 
 > **⚡ Fast Tip:** Use Expo Go app for instant development testing on your real device!
 
-##  Project Structure
+---
 
-\\\
+## 📁 Project Structure
+
+```
 greenspend/
- app/                          # Expo Router app directory
-    _layout.tsx              # Root layout
-    index.tsx                # Entry point (onboarding check)
-    onboarding.tsx           # Onboarding screen
-    add-transaction.tsx       # Add transaction form
-    (tabs)/                  # Tab-based navigation
-        _layout.tsx          # Tabs layout
-        index.tsx            # Dashboard
-        transactions.tsx      # Transactions list
-        budgets.tsx          # Budget management
-        analytics.tsx        # Analytics & charts
-        profile.tsx          # Profile & settings
- assets/                       # Images, fonts, and icons
- components/                   # Reusable UI components
- constants/                    # App constants
- hooks/                        # Custom React hooks
- services/                     # Business logic & services
- types/                        # TypeScript type definitions
- app.json                      # Expo configuration
- package.json                  # Dependencies & scripts
-\\\
+│
+├── 📱 app/                           # Expo Router (file-based routing)
+│   ├── _layout.tsx                  # Root layout & navigation setup
+│   ├── index.tsx                    # Entry point (onboarding check)
+│   ├── onboarding.tsx               # 👋 Onboarding screens
+│   ├── add-transaction.tsx          # ➕ Add transaction form
+│   └── (tabs)/                      # Tab navigation container
+│       ├── _layout.tsx              # Tab layout & structure
+│       ├── index.tsx                # 💰 Dashboard/Home
+│       ├── transactions.tsx         # 📋 All transactions
+│       ├── budgets.tsx              # 🎯 Budget management
+│       ├── analytics.tsx            # 📊 Analytics & charts
+│       └── profile.tsx              # 👤 Settings & profile
+│
+├── 🎨 assets/
+│   ├── images/                      # App icons, logos, splash
+│   └── fonts/                       # Custom fonts
+│
+├── 🧩 components/                   # Reusable UI components
+│   ├── BarChart.tsx                # 📊 Bar chart component
+│   ├── BudgetGauge.tsx             # 🎯 Budget visualization
+│   ├── Button.tsx                  # Button component
+│   ├── Card.tsx                    # Card wrapper
+│   ├── EmptyState.tsx              # Empty state UI
+│   ├── PieChart.tsx                # 🥧 Pie chart component
+│   └── TransactionItem.tsx         # Transaction list item
+│
+├── ⚙️ constants/
+│   └── theme.ts                    # 🎨 Colors, typography, styles
+│
+├── 🪝 hooks/
+│   └── useCurrency.ts              # Currency formatting hook
+│
+├── 🔧 services/
+│   └── storage.ts                  # Local storage operations
+│
+├── 📘 types/
+│   └── index.ts                    # TypeScript interfaces
+│
+├── ⚡ Configuration Files
+│   ├── app.json                    # Expo configuration
+│   ├── package.json                # Dependencies
+│   ├── tsconfig.json               # TypeScript config
+│   ├── babel.config.js             # Babel configuration
+│   └── metro.config.js             # Metro bundler config
+│
+```
 
 ##  Architecture
 
