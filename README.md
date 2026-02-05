@@ -149,14 +149,24 @@ Track your income, manage budgets, analyze spending patterns, and achieve your f
 </tr>
 </table>
 
-##  Prerequisites
+---
 
-- **Node.js** (v18 or higher)
-- **npm** or **yarn**
-- **Expo CLI** (
-pm install -g expo-cli)
-- For iOS development: macOS with Xcode
-- For Android development: Android Studio
+## 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+| Requirement | Version | Purpose |
+|------------|---------|---------|
+| 🟩 Node.js | v18+ | JavaScript runtime |
+| 📦 npm or yarn | Latest | Package manager |
+| 🚀 Expo CLI | Latest | Development platform |
+| 🍎 Xcode | Latest | iOS development (macOS only) |
+| 🤖 Android Studio | Latest | Android development |
+
+> **💡 Tip:** You can install Expo CLI globally with:
+> ```bash
+> npm install -g expo-cli
+> ```
 
 ##  Getting Started
 
