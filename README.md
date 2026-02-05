@@ -168,33 +168,41 @@ Before you begin, ensure you have the following installed:
 > npm install -g expo-cli
 > ```
 
-##  Getting Started
+---
 
-### Installation
+## 🚀 Quick Start
 
-1. **Clone the repository**
-   `bash
-   git clone https://github.com/yourusername/greenspend.git
-   cd greenspend
-   `
+### Step 1: Clone & Navigate 📂
 
-2. **Install dependencies**
-   `bash
-   npm install
-   # or
-   yarn install
-   `
+```bash
+git clone https://github.com/yourusername/greenspend.git
+cd greenspend
+```
 
-3. **Start the development server**
-   `bash
-   npx expo start
-   `
+### Step 2: Install Dependencies 📥
 
-4. **Run on your device or emulator**
-   - Press 'i' for iOS simulator (macOS only)
-   - Press 'a' for Android emulator
-   - Press 'w' for web browser
-   - Or scan the QR code with the Expo Go app on your device
+```bash
+npm install
+# or if you prefer yarn
+yarn install
+```
+
+### Step 3: Start Development Server 🏃
+
+```bash
+npx expo start
+```
+
+### Step 4: Run on Your Device 📱
+
+| Option | Command | Device |
+|--------|---------|--------|
+| **iOS Simulator** | Press `i` | macOS only |
+| **Android Emulator** | Press `a` | Any OS |
+| **Web Browser** | Press `w` | Desktop |
+| **Physical Device** | Scan QR code with Expo Go app | iOS/Android |
+
+> **⚡ Fast Tip:** Use Expo Go app for instant development testing on your real device!
 
 ##  Project Structure
 
