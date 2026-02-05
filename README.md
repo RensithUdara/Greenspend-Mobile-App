@@ -1,28 +1,153 @@
-# Greenspend
+# 💚 Greenspend
 
-A modern personal finance management app built with React Native and Expo. Track your income, manage budgets, analyze spending patterns, and achieve your financial goals with an intuitive mobile-first interface.
+<div align="center">
 
-##  Features
+### 🌱 Take Control of Your Finances
 
-- **Transaction Management** - Record income and expenses with categories, notes, and dates
-- **Budget Tracking** - Set monthly budget limits by category and monitor spending
-- **Visual Analytics** - View spending patterns with interactive charts and statistics
-- **Recurring Transactions** - Automatically track recurring income and expenses
-- **Multi-Currency Support** - Configure your preferred currency for all transactions
-- **Local Data Storage** - All data stored securely on your device
-- **Cross-Platform** - Works seamlessly on iOS, Android, and Web
-- **Responsive Design** - Optimized for all screen sizes and device orientations
+A modern, intuitive personal finance management app built with **React Native** and **Expo**. 
+Track your income, manage budgets, analyze spending patterns, and achieve your financial goals with style.
 
-##  Tech Stack
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![React Native](https://img.shields.io/badge/React%20Native-0.81.5-61dafb?logo=react)](https://reactnative.dev)
+[![Expo](https://img.shields.io/badge/Expo-54.0.21-000020?logo=expo)](https://expo.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6?logo=typescript)](https://www.typescriptlang.org)
 
-- **Framework**: React Native with Expo
-- **Language**: TypeScript
-- **Navigation**: Expo Router (file-based routing)
-- **State Management**: React Hooks
-- **Charts**: Victory Native
-- **Storage**: AsyncStorage
-- **UI Components**: React Native with custom styling
-- **Icons**: Expo Vector Icons
+</div>
+
+---
+
+## ⭐ Features
+
+<table>
+<tr>
+<td>
+
+💳 **Transaction Management**
+- Record income & expenses with categories, notes, and dates
+- Organize transactions by custom categories
+- Full transaction history with timestamps
+
+</td>
+<td>
+
+📊 **Budget Tracking**
+- Set monthly spending limits by category
+- Real-time budget monitoring
+- Visual spending alerts when approaching limits
+
+</td>
+</tr>
+<tr>
+<td>
+
+📈 **Visual Analytics**
+- Interactive charts and graphs
+- Category breakdown visualizations
+- Monthly spending trends
+- Income vs expense analysis
+
+</td>
+<td>
+
+🔄 **Recurring Transactions**
+- Automate income tracking (salary, passive income)
+- Set recurring expenses (bills, subscriptions)
+- Flexible frequency options (weekly, monthly, yearly)
+
+</td>
+</tr>
+<tr>
+<td>
+
+💱 **Multi-Currency Support**
+- Configure your preferred currency
+- Automatic currency formatting
+- Global exchange rate support
+
+</td>
+<td>
+
+🔒 **Local Data Storage**
+- All data stored securely on your device
+- No cloud dependency - complete privacy
+- AsyncStorage persistence
+- Full offline functionality
+
+</td>
+</tr>
+<tr>
+<td>
+
+📱 **Cross-Platform**
+- iOS native experience
+- Android native experience
+- Web browser support
+- Seamless sync across devices
+
+</td>
+<td>
+
+ 🎨 **Beautiful UI/UX**
+- Responsive design for all screen sizes
+- Smooth animations and transitions
+- Dark & light mode support
+- Intuitive navigation
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Tech Stack
+
+<table>
+<tr>
+<th>Category</th>
+<th>Technology</th>
+<th>Purpose</th>
+</tr>
+<tr>
+<td>⚡ Core</td>
+<td><strong>React 19</strong> + <strong>React Native 0.81</strong></td>
+<td>UI framework & mobile development</td>
+</tr>
+<tr>
+<td>🧭 Framework</td>
+<td><strong>Expo 54</strong></td>
+<td>Development platform & rapid deployment</td>
+</tr>
+<tr>
+<td>🗂️ Routing</td>
+<td><strong>Expo Router 6</strong></td>
+<td>File-based navigation system</td>
+</tr>
+<tr>
+<td>💾 Storage</td>
+<td><strong>AsyncStorage</strong></td>
+<td>Persistent local data management</td>
+</tr>
+<tr>
+<td>📊 Charts</td>
+<td><strong>Victory Native</strong></td>
+<td>Beautiful data visualization</td>
+</tr>
+<tr>
+<td>✍️ Language</td>
+<td><strong>TypeScript</strong></td>
+<td>Type-safe development</td>
+</tr>
+<tr>
+<td>🎨 Icons</td>
+<td><strong>Expo Vector Icons</strong></td>
+<td>1000+ customizable icons</td>
+</tr>
+<tr>
+<td>📦 Navigation</td>
+<td><strong>React Navigation 7</strong></td>
+<td>Bottom tab navigation system</td>
+</tr>
+</table>
 
 ##  Prerequisites
 
