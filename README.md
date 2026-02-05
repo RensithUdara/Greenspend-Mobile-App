@@ -258,38 +258,52 @@ greenspend/
 │
 ```
 
-##  Architecture
+---
 
-### Data Models
+## 🏗️ Architecture Overview
 
-**Transaction**
-- Unique transactions with amount, type (income/expense), category, and date
-- Support for recurring transactions with frequency options
-- Timestamps for creation and modification
+### 📊 Data Models
 
-**Budget**
-- Monthly budget limits per category
-- Tracks spending against limits
-- Category-based organization
+| Model | Purpose | Key Fields |
+|-------|---------|-----------|
+| **Transaction** | Income/expense entries | `id`, `amount`, `type`, `category`, `date`, `isRecurring` |
+| **Budget** | Monthly spending limits | `id`, `category`, `limit`, `month` |
+| **AppSettings** | User preferences | `currencySymbol`, `hasCompletedOnboarding` |
 
-**AppSettings**
-- User preferences (currency, onboarding status)
-- Persisted across sessions
+### 🔌 Core Services
 
-### Services
+#### 💾 Storage Service (`services/storage.ts`)
+```typescript
+✓ Manage transactions (CRUD operations)
+✓ Manage budgets by category
+✓ Store custom categories
+✓ Calculate analytics & statistics
+✓ Persist settings & preferences
+```
 
-**Storage Service** (services/storage.ts)
-- Manages all AsyncStorage operations
-- Handles transactions and budgets
-- Supports custom categories
-- Provides analytics calculations
+#### 💱 Currency Hook (`hooks/useCurrency.ts`)
+```typescript
+✓ Format amounts with currency symbols
+✓ Support multi-currency
+✓ Locale-aware formatting
+✓ Global consistency
+```
 
-### Hooks
+### 🔄 Data Flow
 
-**useCurrency** (hooks/useCurrency.ts)
-- Formats amounts with currency symbols
-- Converts between currencies
-- Globally consistent currency formatting
+```
+User Input
+    ↓
+Components
+    ↓
+Hooks (useCurrency, custom hooks)
+    ↓
+Services (Storage)
+    ↓
+AsyncStorage (Local Device)
+    ↓
+Persistent State
+```
 
 ##  Key Screens
 
