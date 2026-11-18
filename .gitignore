@@ -43,4 +43,6 @@ app-example
 .fastshot-logs/
 examples/
 CLAUDE.md
-config.bat
+.env.production
+.env
+.vscode
